@@ -50,7 +50,17 @@ button.ghost:hover { color: var(--text); border-color: var(--accent2); }
 .legend .sw.stop { background: var(--accent2); }
 .foot { font-size: 12px; color: var(--muted); line-height: 1.5; margin-top: 12px; }
 
-#map { flex: 1; height: 100%; }
+#map { flex: 1; height: 100%; position: relative; }
+body.editing #map { cursor: crosshair; }
+button.algo.on { background: #3b5c2a; border-color: #2ea043; color: #eafbe8; }
+
+#editBanner {
+  position: absolute; top: 10px; left: 50%; transform: translateX(-50%); z-index: 1000;
+  background: rgba(46,160,67,.95); color: #fff; padding: 8px 14px; border-radius: 8px;
+  font-size: 13px; box-shadow: 0 2px 8px rgba(0,0,0,.4); max-width: 92%; text-align: center;
+}
+#editBanner.hidden { display: none; }
+.legend .sw.user { background: #2ea043; }
 
 /* markers */
 .pokestop-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--c, #2a75bb);

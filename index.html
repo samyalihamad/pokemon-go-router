@@ -48,6 +48,15 @@
 
       <button id="btnClear" class="ghost">Clear map</button>
 
+      <div class="group">
+        <div class="group-title">Maintain stops</div>
+        <button id="btnEdit" class="algo">✏️ Edit stops (add / delete)</button>
+        <div class="inline">
+          <button id="btnExport" class="algo">⬇️ Export JSON</button>
+          <button id="btnReset" class="algo">↺ Reset</button>
+        </div>
+      </div>
+
       <div id="status" class="status">Booting…</div>
 
       <div class="legend">
@@ -60,7 +69,9 @@
         for you — implement them, refresh, and the routes light up. See <code>PLAN.md</code>.</p>
     </aside>
 
-    <div id="map"></div>
+    <div id="map">
+      <div id="editBanner" class="hidden">✏️ Edit mode — tap the map to <b>add</b> a stop, tap a stop to <b>delete</b> it. Saved on this device.</div>
+    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/pyodide/v0.26.2/full/pyodide.js"></script>

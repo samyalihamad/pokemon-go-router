@@ -6,435 +6,353 @@
   "stops": [
     {
       "id": 0,
-      "name": "Cafe near Lytton Ave & Alma St",
-      "lat": 37.438547,
-      "lng": -122.162729
+      "name": "Professorville Historic District",
+      "lat": 37.441622,
+      "lng": -122.154066,
+      "src": "osm"
     },
     {
       "id": 1,
-      "name": "Gallery on Lytton Ave",
-      "lat": 37.438985,
-      "lng": -122.162095
+      "name": "Center for Continuing Study of California Economy Library",
+      "lat": 37.449383,
+      "lng": -122.16052,
+      "src": "osm"
     },
     {
       "id": 2,
-      "name": "Community Board near Lytton Ave & High St",
-      "lat": 37.439315,
-      "lng": -122.161545
+      "name": "Hewlett Packard's Garage",
+      "lat": 37.44294,
+      "lng": -122.15459,
+      "src": "osm"
     },
     {
       "id": 3,
-      "name": "Bench near Lytton Ave & Emerson St",
-      "lat": 37.440263,
-      "lng": -122.160235
+      "name": "Fountain",
+      "lat": 37.444701,
+      "lng": -122.162554,
+      "src": "osm"
     },
     {
       "id": 4,
-      "name": "Fountain near Lytton Ave & Bryant St",
-      "lat": 37.441804,
-      "lng": -122.157877
+      "name": "Palo Alto Farmer's Market",
+      "lat": 37.44536,
+      "lng": -122.159028,
+      "src": "osm"
     },
     {
       "id": 5,
-      "name": "Bookstore near Lytton Ave & Cowper St",
-      "lat": 37.443301,
-      "lng": -122.155632
+      "name": "Fountain",
+      "lat": 37.441826,
+      "lng": -122.168317,
+      "src": "osm"
     },
     {
       "id": 6,
-      "name": "Community Board near Lytton Ave & Webster St",
-      "lat": 37.444202,
-      "lng": -122.1543
+      "name": "Electronics Research Laboratory",
+      "lat": 37.441536,
+      "lng": -122.15768,
+      "src": "osm"
     },
     {
       "id": 7,
-      "name": "Cafe near Everett Ave & Alma St",
-      "lat": 37.439654,
-      "lng": -122.163493
+      "name": "Professorville",
+      "lat": 37.44221,
+      "lng": -122.153241,
+      "src": "osm"
     },
     {
       "id": 8,
-      "name": "Plaque on Alma St",
-      "lat": 37.43996,
-      "lng": -122.162931
+      "name": "Birthplace of \"Silicon Valley\"",
+      "lat": 37.44294,
+      "lng": -122.15458,
+      "src": "osm"
     },
     {
       "id": 9,
-      "name": "Bench near Everett Ave & High St",
-      "lat": 37.440435,
-      "lng": -122.162332
+      "name": "First Hospital",
+      "lat": 37.449178,
+      "lng": -122.160777,
+      "src": "osm"
     },
     {
       "id": 10,
-      "name": "Plaque near Everett Ave & Emerson St",
-      "lat": 37.441068,
-      "lng": -122.161318
+      "name": "University A.M.E. Zion Church 1925-1965",
+      "lat": 37.442772,
+      "lng": -122.158033,
+      "src": "osm"
     },
     {
       "id": 11,
-      "name": "Historic Marker on Emerson St",
-      "lat": 37.44143,
-      "lng": -122.160609
+      "name": "Cardinal French Laundry (1931-1989)",
+      "lat": 37.443189,
+      "lng": -122.15809,
+      "src": "osm"
     },
     {
       "id": 12,
-      "name": "Cafe near Everett Ave & Ramona St",
-      "lat": 37.442072,
-      "lng": -122.160047
+      "name": "original Palo Alto volunteer fire department bell 1904",
+      "lat": 37.444987,
+      "lng": -122.166175,
+      "src": "osm"
     },
     {
       "id": 13,
-      "name": "Sculpture near Everett Ave & Bryant St",
-      "lat": 37.442579,
-      "lng": -122.158918
+      "name": "Tower Well structure (historic)",
+      "lat": 37.445979,
+      "lng": -122.167341,
+      "src": "osm"
     },
     {
       "id": 14,
-      "name": "Sculpture on Everett Ave",
-      "lat": 37.443048,
-      "lng": -122.158246
+      "name": "Pacific Art League",
+      "lat": 37.443797,
+      "lng": -122.160068,
+      "src": "osm"
     },
     {
       "id": 15,
-      "name": "Bench near Everett Ave & Waverley St",
-      "lat": 37.443596,
-      "lng": -122.157871
+      "name": "Palo Alto 100 Years",
+      "lat": 37.444928,
+      "lng": -122.160909,
+      "src": "osm"
     },
     {
       "id": 16,
-      "name": "Gallery on Everett Ave",
-      "lat": 37.444033,
-      "lng": -122.157234
+      "name": "Palo Alto\u2019s First Community House",
+      "lat": 37.442777,
+      "lng": -122.165124,
+      "src": "osm"
     },
     {
       "id": 17,
-      "name": "Fountain near Everett Ave & Cowper St",
-      "lat": 37.444276,
-      "lng": -122.156556
+      "name": "Node",
+      "lat": 37.444525,
+      "lng": -122.162777,
+      "src": "osm"
     },
     {
       "id": 18,
-      "name": "Fountain on Cowper St",
-      "lat": 37.444517,
-      "lng": -122.156001
+      "name": "Pamela Walsh Gallery",
+      "lat": 37.444736,
+      "lng": -122.161508,
+      "src": "osm"
     },
     {
       "id": 19,
-      "name": "Historic Marker near Everett Ave & Webster St",
-      "lat": 37.44496,
-      "lng": -122.155361
+      "name": "El Camino Park",
+      "lat": 37.445279,
+      "lng": -122.168796,
+      "src": "osm"
     },
     {
       "id": 20,
-      "name": "Mural near University Ave & Alma St",
-      "lat": 37.440508,
-      "lng": -122.164695
+      "name": "Lytton Plaza",
+      "lat": 37.44471,
+      "lng": -122.162431,
+      "src": "osm"
     },
     {
       "id": 21,
-      "name": "Sculpture on Alma St",
-      "lat": 37.441009,
-      "lng": -122.164068
+      "name": "Cogswell Plaza",
+      "lat": 37.446248,
+      "lng": -122.162926,
+      "src": "osm"
     },
     {
       "id": 22,
-      "name": "Bookstore near University Ave & Emerson St",
-      "lat": 37.442193,
-      "lng": -122.162392
+      "name": "Heritage Park",
+      "lat": 37.443949,
+      "lng": -122.156762,
+      "src": "osm"
     },
     {
       "id": 23,
-      "name": "Community Board near University Ave & Ramona St",
-      "lat": 37.442836,
-      "lng": -122.161242
+      "name": "Palo Alto Downtown Library",
+      "lat": 37.443877,
+      "lng": -122.159192,
+      "src": "osm"
     },
     {
       "id": 24,
-      "name": "Community Board on Ramona St",
-      "lat": 37.443276,
-      "lng": -122.160601
+      "name": "Scott Park",
+      "lat": 37.443242,
+      "lng": -122.155637,
+      "src": "osm"
     },
     {
       "id": 25,
-      "name": "Plaque near University Ave & Bryant St",
-      "lat": 37.443677,
-      "lng": -122.159903
+      "name": "Fraternal Hall Building",
+      "lat": 37.443824,
+      "lng": -122.163256,
+      "src": "osm"
     },
     {
       "id": 26,
-      "name": "Gallery near University Ave & Waverley St",
-      "lat": 37.444307,
-      "lng": -122.158714
+      "name": "Timothy Hopkins Creekside Park",
+      "lat": 37.452147,
+      "lng": -122.165005,
+      "src": "osm"
     },
     {
       "id": 27,
-      "name": "Community Board on Waverley St",
-      "lat": 37.444612,
-      "lng": -122.158044
+      "name": "Tower Well park",
+      "lat": 37.445916,
+      "lng": -122.167402,
+      "src": "osm"
     },
     {
       "id": 28,
-      "name": "Community Board near University Ave & Cowper St",
-      "lat": 37.445146,
-      "lng": -122.15769
+      "name": "Tower Well",
+      "lat": 37.445988,
+      "lng": -122.167353,
+      "src": "osm"
     },
     {
       "id": 29,
-      "name": "Cafe near University Ave & Webster St",
-      "lat": 37.44618,
-      "lng": -122.156394
+      "name": "Saint Thomas Aquinas Catholic Church",
+      "lat": 37.445065,
+      "lng": -122.156631,
+      "src": "osm"
     },
     {
       "id": 30,
-      "name": "Community Board near Hamilton Ave & Alma St",
-      "lat": 37.441476,
-      "lng": -122.165518
+      "name": "Seventh Day Adventist Church",
+      "lat": 37.448514,
+      "lng": -122.150477,
+      "src": "osm"
     },
     {
       "id": 31,
-      "name": "Community Board on Hamilton Ave",
-      "lat": 37.441703,
-      "lng": -122.164941
+      "name": "First United Methodist Church",
+      "lat": 37.449207,
+      "lng": -122.156803,
+      "src": "osm"
     },
     {
       "id": 32,
-      "name": "Mural near Hamilton Ave & High St",
-      "lat": 37.442105,
-      "lng": -122.164403
+      "name": "Aquarius Theatre",
+      "lat": 37.444962,
+      "lng": -122.163711,
+      "src": "osm"
     },
     {
       "id": 33,
-      "name": "Bench near Hamilton Ave & Emerson St",
-      "lat": 37.442894,
-      "lng": -122.163313
+      "name": "Jehovah's Witnesses",
+      "lat": 37.444697,
+      "lng": -122.163932,
+      "src": "osm"
     },
     {
       "id": 34,
-      "name": "Bench on Hamilton Ave",
-      "lat": 37.443368,
-      "lng": -122.162637
+      "name": "Palo Alto History Museum",
+      "lat": 37.443608,
+      "lng": -122.157411,
+      "src": "osm"
     },
     {
       "id": 35,
-      "name": "Plaque near Hamilton Ave & Ramona St",
-      "lat": 37.443785,
-      "lng": -122.162071
+      "name": "Museum of American Heritage",
+      "lat": 37.444482,
+      "lng": -122.157509,
+      "src": "osm"
     },
     {
       "id": 36,
-      "name": "Plaque near Hamilton Ave & Bryant St",
-      "lat": 37.444634,
-      "lng": -122.160977
+      "name": "Stanford Theater",
+      "lat": 37.44536,
+      "lng": -122.162882,
+      "src": "osm"
     },
     {
       "id": 37,
-      "name": "Community Board near Hamilton Ave & Waverley St",
-      "lat": 37.445229,
-      "lng": -122.159781
+      "name": "First Lutheran Church",
+      "lat": 37.447139,
+      "lng": -122.153818,
+      "src": "osm"
     },
     {
       "id": 38,
-      "name": "Bench near Hamilton Ave & Cowper St",
-      "lat": 37.446196,
-      "lng": -122.158743
+      "name": "Johnson Park",
+      "lat": 37.44938,
+      "lng": -122.163243,
+      "src": "osm"
     },
     {
       "id": 39,
-      "name": "Plaque near Forest Ave & Alma St",
-      "lat": 37.442301,
-      "lng": -122.166453
+      "name": "Garden",
+      "lat": 37.444528,
+      "lng": -122.157484,
+      "src": "osm"
     },
     {
       "id": 40,
-      "name": "Historic Marker near Forest Ave & High St",
-      "lat": 37.443115,
-      "lng": -122.165344
+      "name": "Garden",
+      "lat": 37.43992,
+      "lng": -122.162593,
+      "src": "osm"
     },
     {
       "id": 41,
-      "name": "Bench on High St",
-      "lat": 37.443403,
-      "lng": -122.164858
+      "name": "Garden",
+      "lat": 37.439973,
+      "lng": -122.162121,
+      "src": "osm"
     },
     {
       "id": 42,
-      "name": "Community Board near Forest Ave & Emerson St",
-      "lat": 37.444047,
-      "lng": -122.164236
+      "name": "Garden",
+      "lat": 37.439974,
+      "lng": -122.161615,
+      "src": "osm"
     },
     {
       "id": 43,
-      "name": "Community Board near Forest Ave & Ramona St",
-      "lat": 37.44459,
-      "lng": -122.163042
+      "name": "Garden",
+      "lat": 37.440125,
+      "lng": -122.161611,
+      "src": "osm"
     },
     {
       "id": 44,
-      "name": "Community Board on Forest Ave",
-      "lat": 37.444902,
-      "lng": -122.162562
+      "name": "Garden",
+      "lat": 37.440488,
+      "lng": -122.161311,
+      "src": "osm"
     },
     {
       "id": 45,
-      "name": "Fountain near Forest Ave & Bryant St",
-      "lat": 37.445511,
-      "lng": -122.161671
+      "name": "Palo Alto City Hall",
+      "lat": 37.444204,
+      "lng": -122.159773,
+      "src": "osm"
     },
     {
       "id": 46,
-      "name": "Gallery on Forest Ave",
-      "lat": 37.445941,
-      "lng": -122.160979
+      "name": "Park",
+      "lat": 37.444506,
+      "lng": -122.160201,
+      "src": "osm"
     },
     {
       "id": 47,
-      "name": "Historic Marker near Forest Ave & Waverley St",
-      "lat": 37.446342,
-      "lng": -122.160728
+      "name": "All Saints Episcopal Church",
+      "lat": 37.446865,
+      "lng": -122.159225,
+      "src": "osm"
     },
     {
       "id": 48,
-      "name": "Sculpture near Forest Ave & Cowper St",
-      "lat": 37.447071,
-      "lng": -122.159662
+      "name": "First Presbyterian Church",
+      "lat": 37.443014,
+      "lng": -122.151465,
+      "src": "osm"
     },
     {
       "id": 49,
-      "name": "Plaque near Forest Ave & Webster St",
-      "lat": 37.44778,
-      "lng": -122.158399
-    },
-    {
-      "id": 50,
-      "name": "Community Board near Homer Ave & Alma St",
-      "lat": 37.443253,
-      "lng": -122.167448
-    },
-    {
-      "id": 51,
-      "name": "Cafe on Homer Ave",
-      "lat": 37.443786,
-      "lng": -122.166836
-    },
-    {
-      "id": 52,
-      "name": "Bookstore near Homer Ave & High St",
-      "lat": 37.444119,
-      "lng": -122.166562
-    },
-    {
-      "id": 53,
-      "name": "Bookstore near Homer Ave & Emerson St",
-      "lat": 37.444868,
-      "lng": -122.165429
-    },
-    {
-      "id": 54,
-      "name": "Plaque on Emerson St",
-      "lat": 37.445273,
-      "lng": -122.164704
-    },
-    {
-      "id": 55,
-      "name": "Cafe near Homer Ave & Ramona St",
-      "lat": 37.445557,
-      "lng": -122.164093
-    },
-    {
-      "id": 56,
-      "name": "Bench on Ramona St",
-      "lat": 37.445922,
-      "lng": -122.163428
-    },
-    {
-      "id": 57,
-      "name": "Historic Marker near Homer Ave & Bryant St",
-      "lat": 37.446424,
-      "lng": -122.162661
-    },
-    {
-      "id": 58,
-      "name": "Bookstore on Bryant St",
-      "lat": 37.446716,
-      "lng": -122.162041
-    },
-    {
-      "id": 59,
-      "name": "Community Board near Homer Ave & Waverley St",
-      "lat": 37.447262,
-      "lng": -122.161773
-    },
-    {
-      "id": 60,
-      "name": "Community Board on Homer Ave",
-      "lat": 37.447791,
-      "lng": -122.161177
-    },
-    {
-      "id": 61,
-      "name": "Mural near Homer Ave & Webster St",
-      "lat": 37.448781,
-      "lng": -122.159337
-    },
-    {
-      "id": 62,
-      "name": "Sculpture near Channing Ave & Alma St",
-      "lat": 37.444393,
-      "lng": -122.168543
-    },
-    {
-      "id": 63,
-      "name": "Historic Marker on Channing Ave",
-      "lat": 37.444772,
-      "lng": -122.168111
-    },
-    {
-      "id": 64,
-      "name": "Cafe near Channing Ave & High St",
-      "lat": 37.445178,
-      "lng": -122.167401
-    },
-    {
-      "id": 65,
-      "name": "Sculpture near Channing Ave & Emerson St",
-      "lat": 37.445784,
-      "lng": -122.165984
-    },
-    {
-      "id": 66,
-      "name": "Fountain near Channing Ave & Ramona St",
-      "lat": 37.446585,
-      "lng": -122.164907
-    },
-    {
-      "id": 67,
-      "name": "Cafe on Ramona St",
-      "lat": 37.447104,
-      "lng": -122.164304
-    },
-    {
-      "id": 68,
-      "name": "Cafe near Channing Ave & Bryant St",
-      "lat": 37.447421,
-      "lng": -122.163709
-    },
-    {
-      "id": 69,
-      "name": "Bookstore near Channing Ave & Waverley St",
-      "lat": 37.448021,
-      "lng": -122.162652
-    },
-    {
-      "id": 70,
-      "name": "Mural near Channing Ave & Cowper St",
-      "lat": 37.448962,
-      "lng": -122.161386
-    },
-    {
-      "id": 71,
-      "name": "Plaque near Channing Ave & Webster St",
-      "lat": 37.449749,
-      "lng": -122.160167
+      "name": "Edith Johnson Garden",
+      "lat": 37.44978,
+      "lng": -122.163499,
+      "src": "osm"
     }
   ]
 }
