@@ -88,6 +88,27 @@ python3 -m http.server 8000
 **On your iPhone:** open the GitHub Pages URL (see README), then Share → *Add to Home Screen*.
 Edit `algorithms.py` → `git push` → refresh on your phone.
 
+## Persistence roadmap (next step: DynamoDB)
+
+v1 stores add/delete edits in the browser's **localStorage** (per-device, offline) with an
+Export-JSON button. **Next:** shared + durable persistence so the curated stop list is identical
+on every device — the same pattern as the pensare board (AWS Lambda Function URL + a table).
+
+**Design (small, well-scoped build):**
+- **DynamoDB table `pogo-stops`** — one item per stop: `PK = id` (string), attrs `name, lat, lng, src`.
+  Scale is tiny (~50–300 stops), so a `Scan` on GET is fine.
+- **Lambda (Python) + Function URL** (CORS for the Pages origin):
+  - `GET    /stops`        → Scan → `{center, stops: [...]}`
+  - `POST   /stops`        → PutItem (add) — body `{name, lat, lng}` → server assigns id
+  - `DELETE /stops/{id}`   → DeleteItem
+  - one-time seed from `data/pokestops.json`.
+- **Frontend:** replace the localStorage load/save in `js/app.js` with `fetch` to the Function URL;
+  keep localStorage as an optional offline cache / optimistic layer.
+- Reuse the existing AWS account + creds (the `pensare-kanban` Lambda already proves this pattern).
+
+`data/pokestops.json` stays in the repo as the **seed / offline fallback**; DynamoDB becomes the
+source of truth once wired.
+
 ## Future ideas (Objective C+ and beyond)
 - Real OSM sidewalk graph for `street_distance` (overpass export).
 - Live GPS position + "next best stop" turn-by-turn.
