@@ -1,0 +1,14 @@
+{
+  "name": "PokéStop Route Optimizer",
+  "short_name": "PokéRouter",
+  "description": "Optimize PokéStop farming routes in Palo Alto — a Python algorithm sandbox.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f1420",
+  "theme_color": "#161c2b",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

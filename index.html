@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <title>PokéStop Route Optimizer — Palo Alto</title>
+  <meta name="theme-color" content="#161c2b" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="PokéRouter" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="loading">
+    <div class="spinner"></div>
+    <div id="loadingMsg">Starting…</div>
+  </div>
+
+  <div id="app">
+    <aside id="panel">
+      <h1>⚡ PokéStop Router</h1>
+      <p class="sub">Downtown Palo Alto · <span id="stopCount">…</span> stops · Python 🐍</p>
+
+      <div class="field">
+        <label>Start stop</label>
+        <select id="startSel"></select>
+        <small>…or tap a stop on the map.</small>
+      </div>
+
+      <div class="group">
+        <div class="group-title">Routing algorithms</div>
+        <button id="btnGreedy" class="algo">1 · Greedy nearest-neighbor</button>
+        <button id="btnOptimal" class="algo">2 · Optimal tour (TSP)</button>
+        <div class="inline">
+          <button id="btnBudget" class="algo">3 · Max stops in budget</button>
+          <input id="budget" type="number" value="1200" min="100" step="100" title="budget (m)" />
+        </div>
+        <button id="btnLoop" class="algo">4 · Best farming loop (spins/hr)</button>
+        <div class="inline">
+          <button id="btnCluster" class="algo">5 · Cluster stops</button>
+          <input id="kClusters" type="number" value="4" min="1" max="10" title="k clusters" />
+        </div>
+      </div>
+
+      <button id="btnClear" class="ghost">Clear map</button>
+
+      <div id="status" class="status">Booting…</div>
+
+      <div class="legend">
+        <div><span class="sw start"></span> start</div>
+        <div><span class="sw route"></span> route order (numbered)</div>
+        <div><span class="sw stop"></span> pokéstop</div>
+      </div>
+
+      <p class="foot">Infra + UI are done. The 6 functions in <code>algorithms.py</code> are stubbed
+        for you — implement them, refresh, and the routes light up. See <code>PLAN.md</code>.</p>
+    </aside>
+
+    <div id="map"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.26.2/full/pyodide.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="js/map.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
